@@ -110,6 +110,10 @@ xhr.send();
 Keep track of what you've seen so far by pushing the value as a key into an object.
 
 ---
+### Recursion
+Calling the function in itself with a call stack(9505 max). 
+
+---
 ### Notes
 * `Null` is intentional while `Undefined` is usually an accident.
 * Escape hatch for a simple edge case.
@@ -126,3 +130,4 @@ fs.readFile('./user.json', (error, data) => {
 })
 ```
 * `json-server --watch db.json` sets up a server and everything in the JSON file has to be in an object.
+* `Array.isArray()` 
